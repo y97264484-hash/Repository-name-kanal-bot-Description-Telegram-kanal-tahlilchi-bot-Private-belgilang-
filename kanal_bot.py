@@ -1,4 +1,5 @@
 import asyncio
+import os
 import pandas as pd
 from pyrogram import Client, filters, idle
 from pyrogram.types import BotCommand
@@ -7,10 +8,10 @@ import time
 import logging
 from datetime import datetime
 
-# SOZLAMALAR
-API_ID       = 31819893
-API_HASH     = "dcac1a0061b3ba42f9665b8d2665ffcf"
-BOT_TOKEN    = "8853304831:AAEq74MmOY_CUsKHEwxMvE4i9scjWtyguLY"
+# SOZLAMALAR — Railway Variables bo'limidan o'qiladi
+API_ID       = int(os.environ.get("35555508"))
+API_HASH     = os.environ.get("5b5f6c10396e58a321fd297d1fdd5ad5")
+BOT_TOKEN    = os.environ.get("8853304831:AAHcOhhvSBmWS_Zd7NjtqkwuBkNHxDBD2lg")
 
 COOLDOWN_SEC  = 30
 DEFAULT_LIMIT = 50
