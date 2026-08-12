@@ -11,7 +11,7 @@ from datetime import datetime
 # SOZLAMALAR — Railway Variables bo'limidan o'qiladi
 API_ID       = int(os.environ.get("35555508"))
 API_HASH     = os.environ.get("5b5f6c10396e58a321fd297d1fdd5ad5")
-BOT_TOKEN    = os.environ.get("8853304831:AAHcOhhvSBmWS_Zd7NjtqkwuBkNHxDBD2lg")
+BOT_TOKEN    = os.environ.get("8760841035:AAG2BMDXe_IH5wJOcYyneQVZn0yAY6rgEd4")
 
 COOLDOWN_SEC  = 30
 DEFAULT_LIMIT = 50
